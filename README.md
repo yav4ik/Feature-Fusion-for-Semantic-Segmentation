@@ -1,4 +1,4 @@
-﻿# Stepwise Feature Fusion SwinV2_T on OpenEarthMap
+﻿# Feature Fusion for Semantic Segmentation
 
 Semantic segmentation on land cover map dataset OpenEarthMap with Stepwise Feature Fusion method and Swin Transformer version 2 tiny model.
 
