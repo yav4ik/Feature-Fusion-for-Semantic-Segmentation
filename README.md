@@ -20,4 +20,16 @@ Stepwise Feature Fusion: Local Guides Global: [paper](https://arxiv.org/abs/2203
 
 Swin Transformer V2: Scaling Up Capacity and Resolution: [paper](https://arxiv.org/abs/2111.09883)
 
+## Project layout
+- `src/`: datasets, model, metrics, training loop, and helpers.
+- `tools/`: entrypoints for training (`tools/train.py`) and inference (`tools/predict.py`).
+- `config/`: YAML configs for training and inference defaults.
+- `requirements.txt`: runtime dependencies.
+- `sff_swinv2T.ipynb`: original research notebook.
+
+## Quickstart
+1. Install dependencies: `python -m pip install -r requirements.txt`
+2. Train: `python tools/train.py --config config/training.yaml`
+3. Predict (needs a checkpoint): `python tools/predict.py --config config/inference.yaml --checkpoint path/to/checkpoint.pt`
+
 

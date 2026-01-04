@@ -1,0 +1,8 @@
+torch
+torchvision
+pytorch-warmup
+numpy
+pillow
+pyyaml
+tqdm
+
